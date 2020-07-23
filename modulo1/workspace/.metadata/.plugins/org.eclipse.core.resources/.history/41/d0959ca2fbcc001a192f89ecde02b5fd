@@ -1,0 +1,11 @@
+package com.glovallogic.app;
+
+public class ArrayConForEach {
+	public static void main(String[] args) {
+		String nombre="Bootcamp2020";
+		int i=0;
+		for(String letra:nombre[1]) {
+			System.out.println("valor del vector: "+vec[1]);
+		}
+	}
+}

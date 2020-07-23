@@ -1,0 +1,8 @@
+package ejer5;
+
+public class testElectrodomesticos {
+	public static void main(String[] args) {
+		Electrodomestico heladera= new Heladera();
+		Electrodomestico televisor= new Televisor();
+	}
+}

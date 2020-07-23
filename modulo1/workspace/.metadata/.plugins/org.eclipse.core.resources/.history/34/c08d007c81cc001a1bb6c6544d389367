@@ -1,0 +1,18 @@
+package com.glovallogic.app;
+
+public class StudentDetails {
+	public static void main(String[] args) {
+		StudenDetails estudiante=new StudentDetails();
+		int edad=0+studentAge();
+		System.out.print(b);
+	}
+private static  int studentAge() {
+	return 5;
+}
+private static  int studentAge(int var) {
+	return var+5;
+}
+StudentDetails(){
+	
+}
+}

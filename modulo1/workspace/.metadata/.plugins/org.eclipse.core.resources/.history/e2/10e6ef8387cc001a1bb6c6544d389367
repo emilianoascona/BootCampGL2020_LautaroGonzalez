@@ -1,0 +1,16 @@
+package com.glovallogic.app;
+
+public class EmpleadoDemo {
+	public static void main(String[] args) {
+		Empleado empleado=new Empleado();
+		empleado.setSalario(1000);
+		empleado.imprimir();
+		int var1=3;
+		int var2=1;
+		int var3=var1+var2;
+		if(var3<10) {
+			System.out.println("la suma de los numeros es: "+var3);
+		}else
+			System.out.println("la suma de los numeros es mayor a 10");
+	}
+}

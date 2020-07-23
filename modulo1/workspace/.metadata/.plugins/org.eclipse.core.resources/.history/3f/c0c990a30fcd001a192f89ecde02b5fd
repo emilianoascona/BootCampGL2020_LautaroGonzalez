@@ -1,0 +1,16 @@
+package ejer5;
+
+import java.util.List;
+
+public class testElectrodomesticos {
+	public static void main(String[] args) {
+		Heladera heladera= new Heladera();
+		Televisor televisor= new Televisor();
+		Cafetera cafetera= new Cafetera();
+		List listaElectro= new ArrayList();
+		Electrodomestico[] vecElectro= new Electrodomestico[] {heladera,televisor,cafetera};
+		for(int i=0;i<vecElectro.length;i++) {
+			vecElectro[i].Encender();
+		}
+	}
+}

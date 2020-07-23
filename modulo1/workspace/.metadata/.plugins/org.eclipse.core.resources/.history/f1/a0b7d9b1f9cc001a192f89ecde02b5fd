@@ -1,0 +1,10 @@
+package com.glovallogic.app;
+
+public class ArrayConForEach {
+	public static void main(String[] args) {
+		String[] vec= new String[] {"Bootcamp2020"};
+		for(String num:vec) {
+			System.out.println("valor del vector: "+num);
+		}
+	}
+}

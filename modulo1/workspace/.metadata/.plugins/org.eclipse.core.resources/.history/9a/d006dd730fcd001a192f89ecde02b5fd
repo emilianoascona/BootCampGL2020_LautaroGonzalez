@@ -1,0 +1,13 @@
+package ejer5;
+
+public class testElectrodomesticos {
+	public static void main(String[] args) {
+		Heladera heladera= new Heladera();
+		Televisor televisor= new Televisor();
+		Cafetera cafetera= new Cafetera();
+		Electrodomestico[] vecElectro= new Electrodomestico[] {heladera,televisor,cafetera};
+		for(int i=0;i<vecElectro.length;i++) {
+			vecElectro[i].Encender();
+		}
+	}
+}

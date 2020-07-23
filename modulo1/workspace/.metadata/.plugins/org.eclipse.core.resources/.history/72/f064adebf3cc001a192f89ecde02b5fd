@@ -1,0 +1,11 @@
+package com.glovallogic.app;
+
+public class EjerIf {
+	public static void main(String[] args) {
+		int compra=300;
+		if(compra==300) {
+			int var=(compra*20)/100;
+			System.out.println("el descuento es de: "+var);
+		}
+	}
+}

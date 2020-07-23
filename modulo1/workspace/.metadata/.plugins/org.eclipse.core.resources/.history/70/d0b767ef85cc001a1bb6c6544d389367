@@ -1,0 +1,9 @@
+package com.glovallogic.app;
+
+public class EmpleadoDemo {
+	public static void main(String[] args) {
+		Empleado empleado=new Empleado();
+		empleado.setSalario(1000);
+		empleado.imprimir();
+	}
+}

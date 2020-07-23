@@ -1,0 +1,10 @@
+package ejer5;
+
+public class Televisor {
+	private double pulgadas;
+	private String resolucion;
+	
+	public void cambiarDeCanal() {
+		System.out.println("se cambio de canal");
+	}
+}

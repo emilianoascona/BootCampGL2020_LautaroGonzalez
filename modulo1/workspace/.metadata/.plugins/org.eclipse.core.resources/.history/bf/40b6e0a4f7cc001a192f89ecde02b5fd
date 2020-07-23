@@ -1,0 +1,16 @@
+package com.glovallogic.app;
+
+public class DiasDeLaSemana {
+	public static void main(String[] args) {
+		String[]vec= new String[] {"lunes","martes","miercoles","jueves","viernes","sabado","domingo"};
+		for(int i=0;i<7;i++) {
+			System.out.println("el dia de la semana es: "+vec[i]);
+		}
+		System.out.println("------------------------------------------------");
+		int var=1;
+		while(var<=10) {
+			System.out.println("valor de i= "+var);
+			var++;
+		}
+	}
+}
